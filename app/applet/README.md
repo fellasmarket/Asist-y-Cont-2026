@@ -48,7 +48,7 @@ Sistema web integral de gestión empresarial con control de asistencia por geofe
 
 2. Instalar dependencias:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 3. Iniciar entorno de desarrollo:
@@ -63,13 +63,13 @@ Sistema web integral de gestión empresarial con control de asistencia por geofe
 
 Este proyecto incluye el archivo `render.yaml` de infraestructura como código. Para desplegarlo en Render:
 
-1. Crea un nuevo **Web Service** en Render y conecta tu repositorio de GitHub `Asist-Cont`.
+1. Crea un nuevo **Web Service** en Render y conecta tu repositorio de GitHub `Asist-y-Cont-2026`.
 2. Configura los siguientes parámetros:
 
 | Parámetro | Valor |
 | :--- | :--- |
 | **Environment / Runtime** | `Node` |
-| **Build Command** | `npm install && npm run build` |
+| **Build Command** | `npm install --legacy-peer-deps && npm run build` |
 | **Start Command** | `npm start` |
 
 3. Haz clic en **Deploy**. El servidor iniciará de inmediato y mantendrá la instancia despierta las 24 horas del día.
