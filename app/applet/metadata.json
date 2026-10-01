@@ -1,0 +1,6 @@
+{
+  "name": "Portal de Control - Asistencia y Finanzas",
+  "description": "Sistema de gestión de asistencia, finanzas y control de empleados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
